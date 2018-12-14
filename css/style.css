@@ -33,7 +33,7 @@ html {
     margin: 0;
     padding: 0;
     border: none; }
-  html ol, html ul, html dl, html li, html dt, html dd {
+  html ol, html dl, html dt, html dd {
     margin: 0;
     padding: 0;
     list-style: none; }
@@ -187,8 +187,8 @@ main {
 /*-----------------------------------about goods------------------------------------------------------*/
 
 .goods-rate {
-  background: url(../images/stars.svg) top left no-repeat;
-  width: 90px;
+  background: url(../images/stars.png) top left no-repeat;
+  width: 97px;
   height: 25px;
   position: absolute;
   top: 8px;
@@ -223,11 +223,21 @@ main {
   background: url("../images/stripe-red.png") 50% 50% no-repeat;
   background-size: cover;
   color: #f8f9fa;
-  font-weight: bold;
-  padding: 3px 20px;
+  padding: 8px 20px;
   margin-left: -15px;
   text-align: center;
   font-size: 19px;
+  display: inline-block;
+}
+.offer-span b {
+  border-right: 1px solid lightgrey;
+  color: #fff600;
+  font-weight: bold;
+  padding: 3px 10px 3px 0px;
+}
+.offer-span span {
+  text-decoration: line-through;
+  padding: 5px 10px;
 }
 /*----------------------------------------------------about goods END----------------------------------*/
 /*----------------------------------------------form section-----------------------------------------*/

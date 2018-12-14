@@ -9,7 +9,7 @@ html {
     position: relative;
     z-index: 0; }
   html h1 {
-    font: 30px "Abril Fatface", cursive;
+    font: 30px "Open Sans", cursive;
     color: #2d2d2d;
     text-align: center;
     margin-bottom: 30px; }
@@ -63,6 +63,178 @@ html {
 
 .foot .formdiv {
   margin-top: 40px; }
+
+/*----------------header-------------------------------------------------------*/
+header {
+  background-color: #00473d ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header h1 {
+  color: #fff;
+}
+
+.standard-button {
+  background: #ff0041;
+  /* Old browsers */
+  /*background: -moz-linear-gradient(45deg, #da242a 0%, #e43339 44%, #ed4046 63%, #ff5a5f 88%, #ff5a5f 88%);*/
+  /*!* FF3.6-15 *!*/
+  /*background: -webkit-linear-gradient(45deg, #da242a 0%,#e43339 44%,#ed4046 63%,#ff5a5f 88%,#ff5a5f 88%);*/
+  /*!* Chrome10-25,Safari5.1-6 *!*/
+  /*background: linear-gradient(45deg, #da242a 0%,#e43339 44%,#ed4046 63%,#ff5a5f 88%,#ff5a5f 88%);*/
+  /*!* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da242a', endColorstr='#ff5a5f',GradientType=1 );
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 800;
+  border: none; }
+.standard-button b {
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  line-height: 32px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.standard-button span {
+  color: #fff;
+  font-size: 16px;
+  line-height: 14px;
+  font-weight: 900;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+}
+.standard-button:hover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff5a5f+8,ff5a5f+8,ed4046+32,ff5a5f+49,ff5a5f+49,e43339+73,e43339+73,da242a+98,da242a+98 */
+  /*background: #ff5a5f;*/
+  /*!* Old browsers *!*/
+  /*background: -moz-linear-gradient(45deg, #ff5a5f 8%, #ff5a5f 8%, #ed4046 32%, #ff5a5f 49%, #ff5a5f 49%, #e43339 73%, #e43339 73%, #da242a 98%, #da242a 98%);*/
+  /*!* FF3.6-15 *!*/
+  /*background: -webkit-linear-gradient(45deg, #ff5a5f 8%,#ff5a5f 8%,#ed4046 32%,#ff5a5f 49%,#ff5a5f 49%,#e43339 73%,#e43339 73%,#da242a 98%,#da242a 98%);*/
+  /*!* Chrome10-25,Safari5.1-6 *!*/
+  /*background: linear-gradient(45deg, #ff5a5f 8%,#ff5a5f 8%,#ed4046 32%,#ff5a5f 49%,#ff5a5f 49%,#e43339 73%,#e43339 73%,#da242a 98%,#da242a 98%);*/
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5a5f', endColorstr='#da242a',GradientType=1 );
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer; }
+.standard-button.yellow_button {
+  line-height: 26px;
+  padding: 10px 20px;
+  background-image: linear-gradient(8deg, #f8ff31 0%, #ffea54 100%); }
+.standard-button.yellow_button b {
+  color: #000; }
+.standard-button.yellow_button:hover {
+  background-image: linear-gradient(8deg, #ffea54 0%, #f8ff31 100%); }
+
+.standard-after h5 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #497a26;
+  font-weight: 500; }
+
+.standard-after h6 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  font-weight: 500; }
+/*---------------------------------------END header-------------------------------------------------------*/
+/*------------------------------------------main----------------------------------------------------------*/
+main {
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+}
+/*------------------------------------------END main------------------------------------------------------*/
+/*----------------------------------product img----------------------------------------------------*/
+.product-img {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+.img-buttons{
+  display: flex;
+  flex-direction: column;
+}
+.prod-images{
+  width: 100%;
+}
+.prod-images img {
+  width:100%;
+}
+/*----------------------------------END product img----------------------------------------------------*/
+/*----------------------------------main-content----------------------------------------------------*/
+.main-content{
+  width:45%;
+  padding: 15px;
+}
+/*----------------------------------END main-content----------------------------------------------------*/
+/*-----------------------------------about goods------------------------------------------------------*/
+
+.goods-rate {
+  background: url(../images/stars.svg) top left no-repeat;
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.about-goods{
+  position: relative;
+}
+.about-goods h1{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 900;
+   text-align: left;
+   color: #000;
+   margin-bottom:20px;
+   text-shadow: none;
+
+ }
+.about-goods .timer-wrapper{
+  margin-bottom: 0;
+}
+.about-goods a.standard-button{
+  margin-top: 15px;
+}
+.mobile-visible{
+  display: none!important;
+}
+.about-goods .flip-clock-wrapper ul li a div div.inn{
+  background-color: #feff9b;
+  font-weight: 700;
+}
+.offer-span{
+  background: url("../images/stripe-red.png") 50% 50% no-repeat;
+  background-size: cover;
+  color: #f8f9fa;
+  font-weight: bold;
+  padding: 3px 20px;
+  margin-left: -15px;
+  text-align: center;
+  font-size: 19px;
+}
+/*----------------------------------------------------about goods END----------------------------------*/
+/*----------------------------------------------form section-----------------------------------------*/
+.form-section {
+  width:20%;
+  padding: 15px;
+}
 
 form {
   background: transparent; }
@@ -508,6 +680,8 @@ form {
   color: #FFEB3B;
   margin-top: -15px; }
 
+/*---------------------------------------flip clock---------------------------------*/
+
 .flip-clock-wrapper {
   padding: 15px 0;
   margin-left: 0;
@@ -576,84 +750,8 @@ form {
 .hours .flip-clock-divider .flip-clock-label {
   right: -52px; }
 
+/*---------------------------------------flip clock END---------------------------------*/
 
-
-.standard-button {
-  background: #ff0041;
-  /* Old browsers */
-  /*background: -moz-linear-gradient(45deg, #da242a 0%, #e43339 44%, #ed4046 63%, #ff5a5f 88%, #ff5a5f 88%);*/
-  /*!* FF3.6-15 *!*/
-  /*background: -webkit-linear-gradient(45deg, #da242a 0%,#e43339 44%,#ed4046 63%,#ff5a5f 88%,#ff5a5f 88%);*/
-  /*!* Chrome10-25,Safari5.1-6 *!*/
-  /*background: linear-gradient(45deg, #da242a 0%,#e43339 44%,#ed4046 63%,#ff5a5f 88%,#ff5a5f 88%);*/
-  /*!* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da242a', endColorstr='#ff5a5f',GradientType=1 );
-  -webkit-transition: all 300ms ease-in-out;
-  -moz-transition: all 300ms ease-in-out;
-  -ms-transition: all 300ms ease-in-out;
-  -o-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-  display: inline-block;
-  padding: 10px 30px;
-  color: #fff;
-  font-weight: 800;
-  border: none; }
-  .standard-button b {
-    display: block;
-    text-align: center;
-    font-size: 26px;
-    line-height: 32px;
-    color: #fff;
-    text-transform: uppercase;
-  }
-  .standard-button span {
-    color: #fff;
-    font-size: 16px;
-    line-height: 14px;
-    font-weight: 900;
-    text-align: center;
-    display: block;
-    text-transform: uppercase;
-  }
-  .standard-button:hover {
-   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff5a5f+8,ff5a5f+8,ed4046+32,ff5a5f+49,ff5a5f+49,e43339+73,e43339+73,da242a+98,da242a+98 */
-  /*background: #ff5a5f;*/
-  /*!* Old browsers *!*/
-  /*background: -moz-linear-gradient(45deg, #ff5a5f 8%, #ff5a5f 8%, #ed4046 32%, #ff5a5f 49%, #ff5a5f 49%, #e43339 73%, #e43339 73%, #da242a 98%, #da242a 98%);*/
-  /*!* FF3.6-15 *!*/
-  /*background: -webkit-linear-gradient(45deg, #ff5a5f 8%,#ff5a5f 8%,#ed4046 32%,#ff5a5f 49%,#ff5a5f 49%,#e43339 73%,#e43339 73%,#da242a 98%,#da242a 98%);*/
-  /*!* Chrome10-25,Safari5.1-6 *!*/
-  /*background: linear-gradient(45deg, #ff5a5f 8%,#ff5a5f 8%,#ed4046 32%,#ff5a5f 49%,#ff5a5f 49%,#e43339 73%,#e43339 73%,#da242a 98%,#da242a 98%);*/
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5a5f', endColorstr='#da242a',GradientType=1 );
-    -webkit-transition: all 300ms ease-in-out;
-    -moz-transition: all 300ms ease-in-out;
-    -ms-transition: all 300ms ease-in-out;
-    -o-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer; }
-  .standard-button.yellow_button {
-    line-height: 26px;
-    padding: 10px 20px;
-    background-image: linear-gradient(8deg, #f8ff31 0%, #ffea54 100%); }
-    .standard-button.yellow_button b {
-      color: #000; }
-    .standard-button.yellow_button:hover {
-      background-image: linear-gradient(8deg, #ffea54 0%, #f8ff31 100%); }
-
-.standard-after h5 {
-  font-size: 20px;
-  line-height: 24px;
-  color: #497a26;
-  font-weight: 500; }
-
-.standard-after h6 {
-  font-size: 20px;
-  line-height: 24px;
-  margin-bottom: 20px;
-  font-weight: 500; }
 
 /*---------------------------comments----------------------------*/
 .comments {
@@ -833,39 +931,6 @@ form {
   100% { -webkit-transform: translateY(0.4em);}
 }
 
-.goods-bottom h1{
-  text-align: left;
-  color: #2d2d2d;
-  margin-bottom:20px;
-  text-shadow: none;
-}
-.goods-bottom{
-  background: #fff url(../images/bg-banner5.jpg) center no-repeat;
-  background-size: cover;
-}
-.goods-bottom .timer-wrapper{
-  margin-bottom: 0;
-}
-.goods-bottom a.standard-button{
-  margin-top: 15px;
-}
-.mobile-visible{
-  display: none!important;
-}
-.goods-bottom .flip-clock-wrapper ul li a div div.inn{
-  background-color: #feff9b;
-  font-weight: 700;
-}
-.offer-span{
-  background: #ff1111;
-  color: #f8f9fa;
-  font-weight: bold;
-  padding: 3px 20px;
-  margin-left: -15px;
-  text-align: center;
-  font-size: 19px;
-}
-
 @media only screen and (max-width: 1600px) {
    }
 
@@ -990,7 +1055,7 @@ form {
     display: block!important;
   }
 
-  .goods-bottom .offer-span{
+  .about-goods .offer-span{
     margin: 20px auto;
   }
 
@@ -1003,7 +1068,7 @@ form {
 
 @media(max-width: 320px) {
 
-  .goods-bottom h1 {
+  .about-goods {
     margin-top: 16px;
     line-height: 28px;
     padding-bottom: 38px;

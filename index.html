@@ -89,6 +89,13 @@
     </header>
     <main>
         <section class="product-img">
+            <div class="mobile-visible">
+                <h1>Product name</h1>
+                <div class="goods-rate"></div>
+                <div class="best-choice">
+                    <img src="images/stripe-best-choice.png" alt="">
+                </div>
+            </div>
             <div class="img-buttons">
                 <div class="button active" data-target="one"><img src="images/but-img-1.png" alt=""></div>
                 <div class="button" data-target="two"><img src="images/but-img-2.png" alt=""></div>
@@ -103,11 +110,14 @@
         </section>
         <section class="main-content">
             <div class="about-goods">
-              <h1>Product name</h1>
-                <div class="goods-rate"></div>
-                <div class="best-choice">
-                    <img src="images/stripe-best-choice.png" alt="">
+                <div class="mobile-hidden">
+                    <h1>Product name</h1>
+                    <div class="goods-rate"></div>
+                    <div class="best-choice">
+                        <img src="images/stripe-best-choice.png" alt="">
+                    </div>
                 </div>
+
                 <div class="table-wrap">
                     <table>
                         <tr>
@@ -116,7 +126,7 @@
                         </tr>
                         <tr>
                             <td class="grey">Offerta del giorno:</td>
-                            <td><strong>EUR 49,99</strong> + <b>4.5 EUR Spedizione.</b> <span id="popupinfo">Maggiori informazioni</span></td>
+                            <td><strong>EUR 49,99</strong><b> +&nbsp;4.5&nbsp;EUR&nbsp;Spedizione.</b> <span id="popupinfo">Maggiori informazioni</span></td>
                         </tr>
                         <tr>
                             <td class="grey">Risparmi:</td>
@@ -129,6 +139,9 @@
                 <div class="timer-wrapper">
                     <div class="clock " id="down"></div>
                     <span class="offer-span"><b>EUR 49,99</b><span>EUR 85,00</span></span>
+                    <div class="button-wrapper mobile-visible">
+                        <a href="#AnchorOrderForm" class="standard-button">Ordina Ora!</a>
+                    </div>
                 </div>
                 <div class="facts">
                     <ul>

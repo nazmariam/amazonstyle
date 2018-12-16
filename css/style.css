@@ -169,6 +169,7 @@ main {
   display: flex;
   flex-direction: row;
   padding: 15px;
+  position: relative;
 }
 .img-buttons{
   display: flex;
@@ -196,7 +197,7 @@ main {
 /*----------------------------------END product img----------------------------------------------------*/
 /*----------------------------------main-content----------------------------------------------------*/
 .main-content{
-  width:45%;
+  width:41%;
   padding: 15px;
 }
 /*----------------------------------END main-content----------------------------------------------------*/
@@ -213,7 +214,7 @@ main {
 .about-goods{
   position: relative;
 }
-.about-goods h1{
+.about-goods h1, .product-img h1{
    font-family: 'Open Sans', sans-serif;
    font-weight: 900;
    text-align: left;
@@ -434,7 +435,7 @@ table .red{
 
 /*----------------------------------------------form section-----------------------------------------*/
 .form-section {
-  width:20%;
+  width: 24%;
   padding: 15px;
 }
 
@@ -448,7 +449,7 @@ form {
   form .foot_bg {
     background: #e2e2e2; }
   form .head_form {
-    padding: 20px 15px; }
+    padding: 2px 0;}
     form .head_form p {
       font-size: 20px;
       line-height: 26px;
@@ -720,11 +721,11 @@ form {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 66.666667%;
+    width: 100%;
   }
   .secureicons img {
     display: block;
-    margin: 0 5px;
+    margin: 0 3px;
   }
   .securesubmit{
     max-width: 350px;
@@ -1108,8 +1109,7 @@ form {
     margin: 0 -15px; }
     .remove-padding img {
       width: 100%; }
-  .standard-button {
-    padding: 10px; }
+
     .standard-button span {
       font-size: 14px; }
   .steps-list {
@@ -1163,7 +1163,6 @@ form {
   .securesubmit{
     width: 100%;
     max-width: 100%;
-    background: #232323;
     padding: 15px;
   }
 
@@ -1193,10 +1192,57 @@ form {
   @media(max-width: 500px) {
   .read-more{
     display: block;
+    color: #29cfba;
   }
     .facts ul{
       height: 250px;
       overflow: hidden;
+    }
+    header{
+      flex-direction: column;
+    }
+    .logo{
+      margin: 8px;
+
+    }
+    .logo img{
+      width: 50%;
+      margin: 0 auto;
+      display: block;
+    }
+    main{
+      flex-direction: column;
+    }
+    .product-img{
+      width:100%;
+      flex-direction: column;
+    }
+    .best-choice::after{
+      display: none;
+    }
+    .prod-images{
+      margin: 20px auto 0;
+    }
+    .table-wrap{
+      margin: 0;
+    }
+    table{
+      font-size: 16px;
+    }
+    table .grey {
+      width: 45%;
+      vertical-align: top;
+      font-size: 16px;
+    }
+    .main-content{
+      width: 100%;
+    }
+    .form-section{
+      width: 100%;
+      padding: 0;
+    }
+    .img-buttons{
+      display: none;
     }
   }
 

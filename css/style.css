@@ -180,6 +180,19 @@ main {
 .prod-images img {
   width:100%;
 }
+.img-buttons .button{
+  margin: 0 16px 16px;
+  cursor: pointer;
+}
+.img-buttons .active{
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+}
+.prod-images img{
+  display: none;
+}
+.prod-images .active {
+  display: block;
+}
 /*----------------------------------END product img----------------------------------------------------*/
 /*----------------------------------main-content----------------------------------------------------*/
 .main-content{

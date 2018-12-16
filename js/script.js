@@ -57,6 +57,13 @@ $( document ).ready(function() {
         vid.play();
     });
 
+    $('.img-buttons .button').click(function () {
+        $('.img-buttons .button, .prod-images img').removeClass('active');
+        $(this).addClass('active');
+        let activeClass = $(this).attr('data-target');
+        $('.prod-images .'+activeClass).addClass('active');
+    });
+
 
     $('#popupinfo').click(function () {
         $('.popup-wrapper').css('display','flex');

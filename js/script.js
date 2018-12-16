@@ -57,4 +57,18 @@ $( document ).ready(function() {
         vid.play();
     });
 
+
+    $('#popupinfo').click(function () {
+        $('.popup-wrapper').css('display','flex');
+    });
+    $('.mask, .close').click(function () {
+        $('.popup-wrapper').css('display','none');
+    });
+    $('.read-more').click(function () {
+        $('.facts ul').css('height','100%');
+        $(this).hide();
+    });
+
+
+
 });

@@ -430,6 +430,27 @@ table .red{
 }
 .hours .flip-clock-divider .flip-clock-label {
   right: -52px; }
+.timer-wrapper .button-wrapper{
+  
+}
+.timer-wrapper .standard-button {
+  background: #1b7f5f;
+  background: linear-gradient(45deg, #004940 0%,#1b7f5f 44%,#1b7f5f 63%,#3fc888 88%,#3fc888 88%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da242a', endColorstr='#ff5a5f',GradientType=1 );
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  display: inline-block;
+  padding: 10px 55px 10px 70px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  position: relative;
+  border-radius: 5px;}
+
 
 /*---------------------------------------flip clock END---------------------------------*/
 

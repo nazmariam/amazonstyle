@@ -449,7 +449,12 @@ table .red{
   font-size: 18px;
   border: none;
   position: relative;
-  border-radius: 5px;}
+  border-radius: 5px;
+  width:100%;
+}
+.timer-wrapper .standard-button::before {
+  left: 80px;
+}
 
 
 /*---------------------------------------flip clock END---------------------------------*/
@@ -953,24 +958,7 @@ form {
   border-radius: 50%;
   height: 65px;
 }
-.second-user {
-  background: url("../images/user-2.png") top center no-repeat;
-  background-size: cover;
-  border-radius: 50%;
-  height: 65px;
-}
-.third-user {
-  background: url("../images/user-3.png") top center no-repeat;
-  background-size: cover;
-  border-radius: 50%;
-  height: 65px;
-}
-.fourth-user {
-  background: url("../images/user-4.png") top center no-repeat;
-  background-size: cover;
-  border-radius: 50%;
-  height: 65px;
-}
+
 .comments .name {
   color: #3e6bb7;
   font-weight: 800;
@@ -1136,9 +1124,7 @@ form {
   .steps-list {
     padding-top: 20px; }
   .about-goods {
-    background: url("../images/bg-banner.jpg") no-repeat;
-    background-position: top;
-    background-size: cover; padding: 10px 0;}
+     padding: 10px 0;}
     .about-goods h1 {
       font-size: 28px; }
     .about-goods h2 {
@@ -1211,13 +1197,23 @@ form {
 
 }
   @media(max-width: 500px) {
+  .read-mask{
+    background: url(../images/mask2.png) 50% no-repeat;
+    background-size: cover;
+    margin: -28px 0;
+    height: 67px;
+    width: 100%;
+    padding: 2px;
+  }
   .read-more{
     display: block;
     color: #29cfba;
+    margin: 17px 0;
   }
     .facts ul{
-      height: 250px;
+      height: 280px;
       overflow: hidden;
+      padding: 0 20px;
     }
     header{
       flex-direction: column;

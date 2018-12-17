@@ -1124,7 +1124,9 @@ form {
   .steps-list {
     padding-top: 20px; }
   .about-goods {
-     padding: 10px 0;}
+     padding: 10px 0;
+    margin-bottom: 20px;
+  }
     .about-goods h1 {
       font-size: 28px; }
     .about-goods h2 {
@@ -1260,6 +1262,17 @@ form {
     }
     .img-buttons{
       display: none;
+    }
+    .comments .comment-item .body-comment p {
+      margin: 0 0 0 12px;
+    }
+    .comments {
+      padding: 40px 0 0;
+    }
+    .popup-box {
+      max-width: 90%;
+      max-height: 90%;
+      overflow: scroll;
     }
   }
 

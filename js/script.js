@@ -67,6 +67,7 @@ $( document ).ready(function() {
 
     $('#popupinfo').click(function () {
         $('.popup-wrapper').css('display','flex');
+        $('body').css('overflow','hidden');
     });
     $('.mask, .close').click(function () {
         $('.popup-wrapper').css('display','none');

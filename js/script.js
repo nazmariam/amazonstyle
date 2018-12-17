@@ -71,6 +71,7 @@ $( document ).ready(function() {
     });
     $('.mask, .close').click(function () {
         $('.popup-wrapper').css('display','none');
+        $('body').css('overflow','auto');
     });
     $('.read-more').click(function () {
         $('.facts ul').css('height','100%');

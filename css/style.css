@@ -780,7 +780,7 @@ form {
   background: #000 !important;
   color: #fff !important;
   text-align: center !important;
-  padding: 10px 0; }
+  padding: 10px 5px; }
   #brandloterms a {
     color: #fff !important; }
 
@@ -1024,10 +1024,10 @@ form {
   border-radius: 100px;
 }
 .carousel-indicators li.active{
-  background-color: #2255ab !important;
+  background-color: #004940 !important;
 }
 .carousel-indicators{
-  bottom: -10px;
+  bottom: -24px;
 }
 .carousel-item{
   padding: 20px;
@@ -1070,63 +1070,57 @@ form {
   100% { -webkit-transform: translateY(0.4em);}
 }
 
-@media only screen and (max-width: 1600px) {
-   }
 
-@media only screen and (max-width: 1200px) {
-  }
 
-@media only screen and (max-width: 990px) {
-  }
 
-@media only screen and (max-width: 768px) {
-  .flip-clock-wrapper {
-    max-width: 285px;
-    min-width: 270px;
-    margin: 0 auto; }
+  @media(max-width: 770px) {
+    .flip-clock-wrapper {
+      max-width: 285px;
+      min-width: 270px;
+      margin: 0 auto; }
     .flip-clock-wrapper ul {
       font-size: 80px;
       line-height: 87px;
       height: 60px;
       width: 36px; }
-      .flip-clock-wrapper ul li a div div.inn {
-        font-size: 42px;
-        line-height: 59px; }
+    .flip-clock-wrapper ul li a div div.inn {
+      font-size: 42px;
+      line-height: 59px; }
     .flip-clock-wrapper .flip-clock-divider.seconds .flip-clock-label {
       right: -74px; }
     .flip-clock-wrapper .flip-clock-divider.minutes .flip-clock-label {
       right: -71px; }
     .flip-clock-wrapper .flip-clock-divider.hours .flip-clock-label {
       right: -57px; }
-  .form .form_wrapper form .checkbox li {
-    border: 1px solid #2d2d2d;
-    margin-bottom: 20px;
-    width: 100%; }
+    .form .form_wrapper form .checkbox li {
+      border: 1px solid #2d2d2d;
+      margin-bottom: 20px;
+      width: 100%; }
     .form .form_wrapper form .checkbox li.cubok {
       background: #fff; }
-      .form .form_wrapper form .checkbox li.cubok .top {
-        display: flex; }
+    .form .form_wrapper form .checkbox li.cubok .top {
+      display: flex; }
     .form .form_wrapper form .checkbox li.box {
       background: #fff; }
     .form .form_wrapper form .checkbox li.gift {
       background: #fff; }
-  .mobile-hidden {
-    display: none !important; }
-  .full-hidden {
-    display: block; }
-  .remove-padding {
-    margin: 0 -15px; }
+    .mobile-hidden {
+      display: none !important; }
+    .full-hidden {
+      display: block; }
+    .remove-padding {
+      margin: 0 -15px; }
     .remove-padding img {
       width: 100%; }
 
     .standard-button span {
       font-size: 14px; }
-  .steps-list {
-    padding-top: 20px; }
-  .about-goods {
-     padding: 10px 0;
-    margin-bottom: 20px;
-  }
+    .steps-list {
+      padding-top: 20px; }
+    .about-goods {
+      padding: 10px 0;
+      margin-bottom: 20px;
+    }
     .about-goods h1 {
       font-size: 28px; }
     .about-goods h2 {
@@ -1141,77 +1135,66 @@ form {
       margin-bottom: 0;text-align: center; }
     .about-goods ul {
       padding: 0; }
-      .about-goods ul li .arrow-position {
-        display: none; }
+    .about-goods ul li .arrow-position {
+      display: none; }
 
-}
+    form .security_box{
+      padding: 0;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 100%;
+    }
+    .secureicons{
+      width: 100%;
+    }
+    .secureicons img{
+      margin: 5px;
+    }
+    .securesubmit{
+      width: 100%;
+      max-width: 100%;
+      padding: 15px;
+    }
 
+    a.standard-button{
+      display: block;
+    }
+    .offer-span{
+      margin-left: 0;
+      margin-bottom: 20px;
+      width: 100%;
+    }
 
-@media(max-width: 1024px){
+    .circle-check{
+      margin-bottom: 20px;
+    }
 
-}
-@media (max-width:1199px)and (min-width:767px) {
+    .mobile-visible{
+      display: block!important;
+    }
 
-}
-@media(max-width: 767px){
+    .about-goods .offer-span{
+      margin: 20px auto;
+    }
 
-  form .security_box{
-    padding: 0;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 100%;
-  }
-  .secureicons{
-    width: 100%;
-  }
-  .secureicons img{
-    margin: 5px 15px;
-  }
-  .securesubmit{
-    width: 100%;
-    max-width: 100%;
-    padding: 15px;
-  }
-
-  a.standard-button{
-    display: block;
-  }
-  .offer-span{
-    margin-left: 0;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-
-  .circle-check{
-    margin-bottom: 20px;
-  }
-
-  .mobile-visible{
-    display: block!important;
-  }
-
-  .about-goods .offer-span{
-    margin: 20px auto;
-  }
-
-
-}
-  @media(max-width: 500px) {
-  .read-mask{
-    background: url(../images/mask2.png) 50% no-repeat;
-    background-size: cover;
-    margin: -28px 0;
-    height: 67px;
-    width: 100%;
-    padding: 2px;
-  }
   .read-more{
     display: block;
     color: #29cfba;
     margin: 17px 0;
+    position: relative;
   }
+    .read-more:before{
+      position: absolute;
+      left: 0;
+      top: -150px;
+      content: '';
+      display: block;
+      width: 100%;
+      height: 150px;
+      background: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    }
     .facts ul{
       height: 280px;
       overflow: hidden;
@@ -1267,12 +1250,23 @@ form {
       margin: 0 0 0 12px;
     }
     .comments {
-      padding: 40px 0 0;
+      padding: 0;
     }
     .popup-box {
       max-width: 90%;
       max-height: 90%;
       overflow: scroll;
+      position: relative;
+    }
+    .popup-box::after{
+      position: fixed;
+      left: 5%;
+      content: '';
+      display: block;
+      width: 90%;
+      height: 150px;
+      background: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 70%);
+      bottom: 5%;
     }
   }
 
